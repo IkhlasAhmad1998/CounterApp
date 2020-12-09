@@ -40,5 +40,5 @@ jobs:
         run: npm install -g surge
         
       - name: Deploying on surge
-        run: surge ./build CounterApp.surge.sh --token ${{ secrets.SURGE_TOKEN }} 
+        run: surge ./build StyledCounter.surge.sh --token ${{ secrets.SURGE_TOKEN }} 
      
